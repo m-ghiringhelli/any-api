@@ -1,5 +1,6 @@
 const roster = [
   {
+    id: '1',
     name: 'Alijaz Ivacic',
     number: 31,
     position: 'Goalkeeper',
@@ -7,6 +8,7 @@ const roster = [
     country: 'Slovenia'
   },
   {
+    id: '2',
     name: 'Josecarlos Van Rankin',
     number: 2,
     position: 'Defender',
@@ -14,6 +16,7 @@ const roster = [
     country: 'Mexico'
   },
   {
+    id: '3',
     name: 'Larrys Mabiala',
     number: 33,
     position: 'Defender',
@@ -21,6 +24,7 @@ const roster = [
     country: 'Congo DR'
   },
   {
+    id: '4',
     name: 'Dario Zuparic',
     number: 13,
     position: 'Defender',
@@ -28,6 +32,7 @@ const roster = [
     country: 'Croatia'
   },
   {
+    id: '5',
     name: 'Justin Rasmussen',
     number: 14,
     position: 'Defender',
@@ -35,6 +40,7 @@ const roster = [
     country: 'United States'
   },
   {
+    id: '6',
     name: 'Christhian Paredes',
     number: 22,
     position: 'Midfielder',
@@ -42,6 +48,7 @@ const roster = [
     country: 'Paraguay'
   },
   {
+    id: '7',
     name: 'David Ayala',
     number: 24,
     position: 'Midfielder',
@@ -49,6 +56,7 @@ const roster = [
     country: 'Argentina'
   },
   {
+    id: '8',
     name: 'Yimmi Chara',
     number: 23,
     position: 'Midfielder',
@@ -56,6 +64,7 @@ const roster = [
     country: 'Colombia'
   },
   {
+    id: '9',
     name: 'Marvin Loria',
     number: 44,
     position: 'Midfielder',
@@ -63,6 +72,7 @@ const roster = [
     country: 'Costa Rica'
   },
   {
+    id: '10',
     name: 'Dairon Asprilla',
     number: 27,
     position: 'Forward',
@@ -70,6 +80,7 @@ const roster = [
     country: 'Colombia'
   },
   {
+    id: '11',
     name: 'Nathan Fogaca',
     number: 99,
     position: 'Forward',
