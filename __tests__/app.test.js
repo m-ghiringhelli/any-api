@@ -10,14 +10,19 @@ describe('roster routes', () => {
     return setup(pool);
   });
 
-  it('should display a list of starters from the most recent Timbers match', () => {
+  it('should display a list of starters from the most recent Timbers match', async () => {
+    const res = await request(app).get('/roster');
     const expected = roster.map((player) => {
       return { 
+        id: player.id,
         name: player.name,
-        number: player.number,  
+        number: player.number,
+        position: player.position,
+        age: player.age,
+        country: player.country
       }
     })
-    expect(1).toEqual(1);
+    expect(res.body).toEqual(expected);
   });
 
   afterAll(() => {
