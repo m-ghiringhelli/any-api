@@ -20,8 +20,8 @@ describe('roster routes', () => {
         position: player.position,
         age: player.age,
         country: player.country
-      }
-    })
+      };
+    });
     expect(res.body).toEqual(expected);
   });
 
